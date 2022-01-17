@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left : 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+
+}
+.navigation{
+    padding-right: 400px;
+}
+.navigation a{
+    color: royalblue;
+    text-decoration: none;
+    font-size: 1.8 em;
+    font-weight: 700;
+    padding-left: 30px;
+
+
+}
+.navigation a:hover{
+    color: purple;
+}
+
+.logo{
+    text-decoration: none;
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+section{
+    padding: 100px 200px;
+}
