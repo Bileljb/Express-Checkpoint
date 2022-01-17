@@ -12,7 +12,7 @@ const middleware = (req, res, next) => {
     let hour = d.getHours();
 
 
-        if  (( 1<=day <=5) && (15 <= hour <= 17))  { return res.sendFile(__dirname+'/public/Closed.html')}
+        if  (( day==0 || day==6) || (hour<=9 || hour >= 17))  { return res.sendFile(__dirname+'/public/Closed.html')}
     
 
     next()
